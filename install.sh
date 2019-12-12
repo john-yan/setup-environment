@@ -8,5 +8,5 @@ bash ~/.vim_runtime/install_awesome_vimrc.sh
 cp screenrc ~/.screenrc
 
 # install ssh keys
-ssh-keygen -t rsa
+cat /dev/zero | ssh-keygen -t rsa -N ""
 
