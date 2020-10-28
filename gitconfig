@@ -1,0 +1,16 @@
+[user]
+	name = Junliang Yan
+	email = jyan@ca.ibm.ca
+[gui]
+[alias]
+    br = branch
+    ci = commit
+    ciam = commit -a -m
+    co = checkout
+    st = status
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    cp = cherry-pick
+[core]
+	editor = vim
+[push]
+	default = simple
