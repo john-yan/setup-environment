@@ -1,6 +1,6 @@
 [user]
 	name = Junliang Yan
-	email = jyan@ca.ibm.ca
+	email = junyan@redhat.com
 [gui]
 [alias]
     br = branch
@@ -12,5 +12,6 @@
     cp = cherry-pick
 [core]
 	editor = vim
+	pager = less -F -X
 [push]
 	default = simple
